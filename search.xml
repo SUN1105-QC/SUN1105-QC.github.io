@@ -5,6 +5,31 @@
     
     <entry>
       <title>メモ</title>
+      <link href="/2026/07/10/1783758772407/"/>
+      <url>/2026/07/10/1783758772407/</url>
+      
+        <content type="html"><![CDATA[<p>Documentation System（文档系统）</p><p>├── 00_文档系统制作手册   ⭐⭐⭐（最先完成）<br>│<br>├── 01_个人开发者第一次项目上线完全指南<br>│<br>├── 02_AWS部署指南<br>│<br>├── 03_Docker指南<br>│<br>├── 04_Linux指南<br>│<br>├── 05_Nginx指南<br>│<br>├── 06_Git自动部署指南<br>│<br>└── …</p><p>这是我设计的初版结构</p><p>1，部署前：部署准备 ➡ 后面内容是我自己举例，实际内容需要你帮我设计完成：<br>比如<br>手顺1：项目检查<br>①<br>②<br>③<br>手顺2：账号准备<br>①<br>②<br>③<br>手顺3：域名购买<br>①<br>②<br>③<br>手顺4：服务器购买<br>①<br>②<br>③</p><p>2，部署中：部署步骤 ➡ 后面内容是我自己举例，实际内容需要你帮我设计完成：<br>比如<br>手顺1：项目打包<br>①<br>②<br>③<br>手顺2：本地连接远程购买的服务器<br>①<br>②<br>③</p><p>3，部署后：部署完成 ➡ 后面内容是我自己举例，实际内容需要你帮我设计完成：<br>比如<br>手顺1：访问验证<br>①<br>②<br>③<br>手顺2：访问验证<br>①<br>②<br>③</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> メモ </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 待做清单 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>メモ</title>
       <link href="/2026/07/10/1783678406690/"/>
       <url>/2026/07/10/1783678406690/</url>
       
@@ -2047,35 +2072,6 @@
     
     
     <entry>
-      <title>测试框架学习路线思维导图</title>
-      <link href="/2026/02/05/1764751774256/"/>
-      <url>/2026/02/05/1764751774256/</url>
-      
-        <content type="html"><![CDATA[<p>测试框架学习路线<br>│<br>├── 1. JUnit 5 基础<br>│     ├── 核心注解<br>│     │     ├── @Test<br>│     │     ├── @BeforeEach &#x2F; @AfterEach<br>│     │     └── @BeforeAll &#x2F; @AfterAll<br>│     ├── 断言方法<br>│     │     ├── assertEquals<br>│     │     ├── assertNotNull &#x2F; assertNull<br>│     │     └── assertThrows<br>│     ├── 特性<br>│     │     ├── 参数化测试 (@ParameterizedTest)<br>│     │     └── 条件测试 (@EnabledIf &#x2F; @DisabledIf)<br>│<br>├── 2. Mockito Mock 技术<br>│     ├── 基础<br>│     │     ├── @Mock &#x2F; @InjectMocks<br>│     │     ├── when(), doReturn(), doThrow()<br>│     │     └── verify()<br>│     ├── 高级<br>│     │     ├── 参数匹配器 (any(), eq())<br>│     │     └── mockConstruction()<br>│     └── 与 Spring 集成<br>│           ├── @MockBean<br>│           └── @SpyBean<br>│<br>├── 3. Spring TestContext Framework<br>│     ├── 核心注解<br>│     │     ├── @SpringJUnitConfig<br>│     │     ├── @ContextConfiguration<br>│     │     ├── @DirtiesContext<br>│     │     └── @Sql<br>│     ├── 功能<br>│     │     ├── 上下文管理 (缓存)<br>│     │     ├── 依赖注入 (@Autowired)<br>│     │     └── 事务管理 (@Transactional)<br>│<br>├── 4. Spring Boot Test<br>│     ├── 核心注解<br>│     │     ├── @SpringBootTest<br>│     │     ├── @WebMvcTest<br>│     │     └── @DataJpaTest<br>│     ├── 测试工具<br>│     │     ├── OutputCaptureExtension<br>│     │     └── TestRestTemplate<br>│<br>├── 5. 高级技巧与最佳实践<br>│     ├── 上下文隔离 (@DirtiesContext)<br>│     ├── 测试性能优化 (上下文缓存)<br>│     ├── CI&#x2F;CD 集成<br>│     └── Mock 与 Spring Boot 深度结合<br>│<br>└── 6. 自动化与覆盖率<br>      ├── 测试覆盖率工具 (JaCoCo, SonarQube)<br>      ├── 自动化测试 (Jenkins, GitHub Actions)<br>      └── 报告与分析 (HTML 报告)</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术相关 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试框架 </tag>
-            
-            <tag> 学习路线 </tag>
-            
-            <tag> 思维导图 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>APIのControllerクラス</title>
       <link href="/2026/02/05/1764059427247/"/>
       <url>/2026/02/05/1764059427247/</url>
@@ -2097,6 +2093,35 @@
             <tag> API </tag>
             
             <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试框架学习路线思维导图</title>
+      <link href="/2026/02/05/1764751774256/"/>
+      <url>/2026/02/05/1764751774256/</url>
+      
+        <content type="html"><![CDATA[<p>测试框架学习路线<br>│<br>├── 1. JUnit 5 基础<br>│     ├── 核心注解<br>│     │     ├── @Test<br>│     │     ├── @BeforeEach &#x2F; @AfterEach<br>│     │     └── @BeforeAll &#x2F; @AfterAll<br>│     ├── 断言方法<br>│     │     ├── assertEquals<br>│     │     ├── assertNotNull &#x2F; assertNull<br>│     │     └── assertThrows<br>│     ├── 特性<br>│     │     ├── 参数化测试 (@ParameterizedTest)<br>│     │     └── 条件测试 (@EnabledIf &#x2F; @DisabledIf)<br>│<br>├── 2. Mockito Mock 技术<br>│     ├── 基础<br>│     │     ├── @Mock &#x2F; @InjectMocks<br>│     │     ├── when(), doReturn(), doThrow()<br>│     │     └── verify()<br>│     ├── 高级<br>│     │     ├── 参数匹配器 (any(), eq())<br>│     │     └── mockConstruction()<br>│     └── 与 Spring 集成<br>│           ├── @MockBean<br>│           └── @SpyBean<br>│<br>├── 3. Spring TestContext Framework<br>│     ├── 核心注解<br>│     │     ├── @SpringJUnitConfig<br>│     │     ├── @ContextConfiguration<br>│     │     ├── @DirtiesContext<br>│     │     └── @Sql<br>│     ├── 功能<br>│     │     ├── 上下文管理 (缓存)<br>│     │     ├── 依赖注入 (@Autowired)<br>│     │     └── 事务管理 (@Transactional)<br>│<br>├── 4. Spring Boot Test<br>│     ├── 核心注解<br>│     │     ├── @SpringBootTest<br>│     │     ├── @WebMvcTest<br>│     │     └── @DataJpaTest<br>│     ├── 测试工具<br>│     │     ├── OutputCaptureExtension<br>│     │     └── TestRestTemplate<br>│<br>├── 5. 高级技巧与最佳实践<br>│     ├── 上下文隔离 (@DirtiesContext)<br>│     ├── 测试性能优化 (上下文缓存)<br>│     ├── CI&#x2F;CD 集成<br>│     └── Mock 与 Spring Boot 深度结合<br>│<br>└── 6. 自动化与覆盖率<br>      ├── 测试覆盖率工具 (JaCoCo, SonarQube)<br>      ├── 自动化测试 (Jenkins, GitHub Actions)<br>      └── 报告与分析 (HTML 报告)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术相关 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试框架 </tag>
+            
+            <tag> 学习路线 </tag>
+            
+            <tag> 思维导图 </tag>
             
         </tags>
       
